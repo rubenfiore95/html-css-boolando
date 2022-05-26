@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  max-width: 1100px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  padding-bottom: 3%;
+}
+
+.card {
+  padding: 2%;
+  position: relative;
+  
+  
+}
+
+
+.sconto{
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    position: absolute;
+    left: 7px;
+    bottom: 82px;
+    
+
+
+}
+.card div {
+  font-size: small;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.card s{
+    color:grey;
+    font-weight: normal;
+    
+}
+
+.price {
+  font-size: small;
+  font-weight: bold;
+  color: red;
+}
+
+.sos{
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    position: absolute;
+    left: 42px;
+    bottom: 82px;
+    
+}
+
+.lastsos{
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    position: absolute;
+    left: 7px;
+    bottom: 82px;
+}
+
+.cuore{
+    background-color: white;
+    font-size: large;
+    position: absolute;
+    padding: 7px 12px;
+    top: 20px;
+    right: 7px;
+
+}
+
+.cuore:hover {
+   color: red;
+   cursor: pointer;
+  }
